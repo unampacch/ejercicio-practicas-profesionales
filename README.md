@@ -1,10 +1,10 @@
-# Ejercicio HTML/CSS para practicas profesionales 2024
+# Ejercicio HTML/CSS para prácticas profesionales 2024
 
 ## Antes de empezar 🖖
 
 + Revisar video HTML https://youtu.be/3nYLTiY5skU?si=9lgcv8fErUMZ51iw
 +	Revisar video CSS https://youtu.be/hrxjBqZWsb0?si=Qz0ZCpGpzRA9ZHyE
-+	Generar cuenta en GitHub (con correo institucional) > https://github.com/
++	Generar cuenta en GitHub (con correo institucional) > https://github.com/ ❤️
 +	Avisar que ya tengo mi cuenta GitHub ❤️
 +	Instalar Git en mi computadora > https://git-scm.com/download/win
 +	Localizar terminal de sistema operativo
@@ -22,7 +22,7 @@ git clone https://github.com/unampacch/ejercicio-practicas-profesionales.git
 git branch tu-nombre
 git checkout tu-nombre
 ```
-3. Maquetar una página utilizando SOLAMENTE HTML y CSS (es decir, ningun framework tipo Bootstrap) basandose en la siguiente imagen o [Figma](https://www.figma.com/design/tgIm0tThfU06DMiZS0jNQr/ejercicio-practicas-profesionales?node-id=0-1&t=cFRczFCyIQFJpjGJ-1).
+3. Maquetar una página utilizando SOLAMENTE HTML y CSS (es decir, ningún framework tipo Bootstrap) basándose en la siguiente imagen o [Figma](https://www.figma.com/design/tgIm0tThfU06DMiZS0jNQr/ejercicio-practicas-profesionales?node-id=0-1&t=cFRczFCyIQFJpjGJ-1).
 ![Layout de ejemplo](/assets/ejercicio.jpg)
 4. Cuando termines realiza tu commit
 ```
