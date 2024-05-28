@@ -35,3 +35,13 @@ git commit -am "Ya acabé mi ejercicio y este es mi commit yujuu 🎉"
 ```
 git push
 ```
+
+## Recursos de apoyo
++ Iconos Bootstrap
+  - https://icons.getbootstrap.com/
++ Deja de usar DIV para todo
+  - https://www.youtube.com/shorts/L26GjUDx6tY
++ Guía de Flexbox
+  - https://www.youtube.com/watch?v=PSwlAuRbv_A
++ Ejercicios CSS
+  - https://lenguajecss.com/css/
