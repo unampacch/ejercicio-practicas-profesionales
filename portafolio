@@ -1,0 +1,138 @@
+<DOCTYPE html>
+<html>
+<head>
+  <Style>
+    h1{
+      color:rgb(17, 145, 138)
+    } 
+
+    body{
+      background-color:rgb(234, 217, 247)
+    }
+  </Style>
+
+<style>
+    ul {
+        
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #9265c5;
+    }
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #ffffff;
+    }
+    
+    .active {
+      background-color: #e66ddb;
+    }
+    </style>
+
+    <body>
+    
+    <ul>
+      <li><a href="https://www.canva.com/design/DAGGj2_FRho/aaqsqPPGlDKyQmZj8Tnajg/edit?utm_content=DAGGj2_FRho&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Bitácoras DSIM Primer Semestre</a></li>
+      <li><a href="https://www.canva.com/design/DAGGj9Ct0rY/kxy35r1ozYm3MEFkMIqZPQ/edit?utm_content=DAGGj9Ct0rY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Bitácoras DSIM Segundo Semestre</a></li>
+      <li><a href="https://nahui-ocelotl.com/">Aprendamos Náhuat</a></li>
+    </ul>
+    </body>
+    
+
+
+
+
+ 
+</header>
+
+<main>
+  <body>
+    <h1 style="background-color:rgb(101, 207, 226);"><center>Portafolio de Dann<center></h1>
+ 
+
+
+
+
+      <h2 style="background-color:rgb(248, 113, 165)"><center>Resumen de mi persona</center></h2>
+      
+      
+      
+      <h3 style="background-color:#f7a2c2"> <text-overline> <center>Soy Dann, tengo 16 años y actualmente estudio el el Colegio de Ciencias y Humanidades Plantel Vallejo, puedes llamarme con cualquier pronombre, me gusta ver series animadas y jugar videojuegos, llevo una dieta vegetariana por lo que evito comer cane, me gusta leer y escuchar música, a continuación te muestro algunos de los trabajos que realice en mi carrera técnica Desarrollo de Sitios y Materiales Educativos Web (DSIM), en la barra de arriba podrás encontrar las bitácoras que dieron seguimiento a los proyectos desarrollados, y al final una página web diseñada por mi profesor Alberto Barrios López que impulsa y promueve la divulgacíón dela lengua materna Náhuatl.</center></text-overline></h3> 
+       
+      <h2 style="background-color:rgb(112, 145, 245)"><center>Mis Trabajos</center></h2>
+      
+       
+      
+        <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #b667ff;
+        }
+        
+        li {
+          float: left;
+          border-right:1px solid #ffffff;
+        }
+        
+        li:last-child {
+          border-right: none;
+        }
+        
+        li a {
+          display: block;
+          color: rgb(255, 252, 253);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #cfa3f3;
+        }
+        
+        .active {
+          background-color: #810eec;
+        }
+        </style>
+        </head>
+        
+        
+        <ul>
+          <li><a class="https://nahui-ocelotl.com/dsim/course/view.php?id=13" href="#home">Pagina Web Sobre la Teoría Celular (Ingresa como invitado)</a></li>
+          <li><a href="https://www.canva.com/design/DAGGk_4Vew4/6T5qqCsudUca4t3cqgJwlw/edit?utm_content=DAGGk_4Vew4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Video Animación Sobre la Teoría Celular</a></li>
+          <li><a href="https://gd.games/messi-7/deep-cell-1-0">Videojuego Deep Cell (Dentro de la Célula)</a></li>
+          <li style="https://www.canva.com/design/DAGGlOlwjmc/AdFm3NN9jVVFD2-2vkF7xg/edit?utm_content=DAGGlOlwjmc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><a href="https://www.canva.com/design/DAGGlP5QXMA/MskfZJBpfPX1z-k8fTHT1Q/edit?utm_content=DAGGlP5QXMA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Proyecto de Maquetación (Doc)</a></li>
+        </ul>
+        
+      
+      </main> 
+      
+      <footer>
+      
+      
+        </body>
+      
+        <h2 style="background-color:rgb(95, 214, 59)">Mi contacto</h2>
+        <h4 style="background-color:rgb(129, 236, 97)">Mi g-mail institucional: danielayenedithtrejo323@alumno.cch.unam.mx
+      <p>Mi g-mail personal: dannrishler@gmail.com</p>
+      
+      </footer>
+      </body>
+      </h4>
+      </html>
+      </DOCTYPE>
