@@ -1,0 +1,38 @@
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #333366;
+}
+
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bolder;
+	color: #330066;
+	text-align:center
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #666699;
+	text-align:center
+}
+
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+.piedepagina {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: oblique;
+	line-height: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #660033;
+    font-size: 12px;
+}
+.capas {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+}
