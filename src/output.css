@@ -109,11 +109,30 @@ main {
   }
   & .contacto__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 1rem;
     padding: 2rem;
   }
   & .contacto__redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+  }
+  & .contacto__foto {
+    & img {
+      border: 0.5rem solid darkslategray;
+      border-radius: 50%;
+      max-width: 100%;
+    }
+  }
+}
+footer  {
+  background-color: #85919e;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  & p {
+    margin: 0;
   }
 }
