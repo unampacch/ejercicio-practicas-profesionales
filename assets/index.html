@@ -4,120 +4,148 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width"
         <title>Portafolio de mi persona</title>
-
-        <style>
-            h1 {
-                color: rgb(52, 78, 229);
-                font-family: 'Trebuchet MS';
-            }
-
-            h2{
-                color: rgb(149, 83, 254);
-                font-family: 'Trebuchet MS'; 
-            }
-
-            h3{
-                color: rgb(235, 84, 167);
-                font-family: 'Trebuchet MS';
-            }
-
-            body {
-                background: rgb(114, 199, 255);
-                font-family: 'Helvetica Neue', 'Segoe UI', Roboto,
-                 'Georgia', 'Arial', sans-serif;  
-            }
-
-            .link {
-                color:rgb(13, 114, 121);
-            }
-
-            .link:hover {
-                border: 8px solid rgb(13, 114, 121);
-            }
-
-            .link:active {
-                border: 8px solid rgb(239, 84, 154);
-            }
-
-        </style>
-
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <h1>Portafolio de Gabriela Arrazola</h1>
+        <header class="menu">
+            <span>🐰</span>
+            <nav>
+                <ul class="menu_nav">
+                    <li>Estudiante de DSIM</li>
+                    <li>Trabajos</li>
+                    <li>Mi contacto</li>
+                </ul>
+            </nav>
         </header>
         <main>
-        <h2>Portafolio de mi persona</h2>
-    
-        <h3>Resumen de mi Persona</h3>
-        <p>Me llamo Gabriela Arrazola Hernandez actualmente tengo 18 años 
-        y curse el ETE en <strong>Desarrollo de Sitios y Materiales Educativos 
-        WEB</strong>, en el <strong>CCH Vallejo</strong>, del cual estoy a punto 
-        de egresar, durante el periodo <strong>2024-1</strong> en el que adquiri 
-        conocimientos que espero me ayuden a aportar de manera colaborativa a los 
-        proyectos que se lleven a cabo a lo largo de las actividades practicas, al
-        igual que adquirir experiencia en la misma puesto que me seria de gran utilidad
-        a futuro por la carrera que deseo estudiar.</p>
-        
-        <h3>Trabajos</h3>
-        <ul>
-           <li>Utilizacion de Moodle, Gdevelop, cables.gl, IbisPaint, Gimp para
-            elaboracion de un sitio web.</li>
-           <Li>Uso de Guion instruccional, aprendizaje significativo, gamificacion,
-            storyboards, guion literario, guion tecnico, bitacoras, referencias y
-            argumento en trabajo escrito para elaboracion de un sitio web.</Li>
-            <li>Documentos con los recursos utilizados por cada proyecto;</li>
-            <li>Proyecto 1:</li>
-            <nav>
-                <a class="link" href="https://docs.google.com/document/d/1gDIAUTF8PVl6baqd9W3Z90YrjjKPBHEJU2uzKtuSnbI/edit?usp=sharing" target="_blank"
-                rel="noreferrer">Drive</a>
-            </nav>
-            <li>Proyecto 2:</li>
-            <nav>
-                <a class="link" href="https://docs.google.com/document/d/1HwSn6qH3N5A23fjjNCeIH-6ap6EI1y_4A848aoSgHKg/edit?usp=sharing" target="_blank"
-                rel="noreferrer">Drive</a>
-            </nav>
-            <li>Proyecto 3:</li>
-            <nav>
-                <a class="link" href="https://docs.google.com/document/d/1DcPG4gFyBkB2uLFmoocNMwI7XgViV3KV/edit?usp=sharing&ouid=117136487009513993591&rtpof=true&sd=true" target="_blank"
-                rel="noreferrer">Drive</a>
+            <section class="presentacion">
+                <h1 class="presentacion_h1">Portafolio de <span class="">Gabriela Arrazola Hernandez</span></h1>
+                <h2 class="presentacion_h2">Estudiante de DSIM</h2>
+                <article class="presentacion_article">
+                    <p>
+                        Me llamo Gabriela Arrazola Hernandez actualmente tengo 18 años y curse el ETE en <strong>Desarrollo
+                        de Sitios y Materiales educativos WEB</strong>, en el <strong>CCH Vallejo</strong>, del cual estoy a
+                        punto de egresar, durante el periodo <strong>2024-1</strong> en el que adquiri conocimientos que espero
+                        me ayuden a aportar de manera colaborativa a los proyectos que se lleven a cabo a lo largo de las actividades
+                        prácticas, al igual que adquirir experiencia en la misma puesto que me sería de gran utilidad a futuro por
+                        la carrera que deseo estudiar     a futuro por la carrera que deseo estudiar.
+                    </p>
+                </article>
+            </section>
+            <section class="educacion">
+                <h2>Educación</h2>
+                <ul>
+                    <li>Colegio de Ciencias y Humanidades plantel Vallejo</li>
+                    <li>Estudio tecnico especializado en Desarrollo de Sitios y Materiales Educativos WEB</li>
+                    <li>Ciclo escolar 2023-2024</li>
+                </ul>
+            </section>
+            <section class="trabajo">
+                <h2>Trabajos</h2>
+                <div class="trabajo_wrapper">
+                    <article class="trabajo_article">
+                        <h3>Proyecto 1</h3>
+                        <p>En este proyecto desarrollamos una maqueta para una página web educativa, destinada a alumnos del curso TLRIID-IV,
+                        que ofrece recursos textuales y gráficos para enseñar a elaborar ensayos académicos. Incluye videos y un mini juego
+                        para reforzar el aprendizaje, utilizando un diseño visual atractivo con colores verdes y amarillos tenues para facilitar
+                        la comprensión y retención de la información.</p>
+                        <nav>
+                            <a class="link" href="https://docs.google.com/document/d/1gDIAUTF8PVl6baqd9W3Z90YrjjKPBHEJU2uzKtuSnbI/edit?usp=sharing" target="_blank"
+                            rel="noreferrer">Drive</a>
+                        </nav>
+                    </article>
+                    <article class="trabajo_article">
+                        <h3>Proyecto 2</h3>
+                        <p>En este proyecto creamos cápsulas educativas para una página web, protagonizadas por los personajes "Paki" y "Koli",
+                        que explican la estructura y ejemplos de ensayos académicos de manera entretenida y accesible. Utiliza recursos visuales
+                        y mexicanismos para hacer el tema más atractivo y comprensible.</p>
+                        <nav>
+                            <a class="link" href="https://docs.google.com/document/d/1HwSn6qH3N5A23fjjNCeIH-6ap6EI1y_4A848aoSgHKg/edit?usp=sharing" target="_blank"
+                            rel="noreferrer">Drive</a>
+                        </nav>
+                    </article>
+                    <article class="trabajo_article">
+                        <h3>Proyecto 3</h3>
+                        <p>Se desarrollo un videojuego educativo protagonizado por un niño alebrije llamado Koli, quien busca recuperar unas hojas
+                        perdidas sobre ensayos académicos en el lago de Xochimilco. El juego consta de 3 niveles, cada uno relacionado con un
+                        aspecto del ensayo académico. Los jugadores interactúan con objetos que proporcionan información sobre el tema, brindando
+                        aprendizaje de forma interactiva y entretenida. creamos cápsulas educativas para una página web, protagonizadas por los
+                        personajes "Paki" y "Koli",que explican la estructura y ejemplos de ensayos académicos de manera entretenida y accesible.
+                        Utiliza recursos visuales y mexicanismos para hacer el tema más atractivo y comprensible.</p>
+                        <nav>
+                            <a class="link" href="https://docs.google.com/document/d/1DcPG4gFyBkB2uLFmoocNMwI7XgViV3KV/edit?usp=sharing&ouid=117136487009513993591&rtpof=true&sd=true" target="_blank"
+                            rel="noreferrer">Drive</a>
+                        </nav>
+                    </article>
+                    <article class="trabajo_article">
+                        <h3>Proyecto 4</h3>
+                        <p>Aqui creamos una plataforma educativa en MOODLE, centrada en el aprendizaje significativo y la gamificación para
+                        estudiantes del 4° semestre de Taller de Lectura, Redacción e Iniciación a la Investigación Documental IV. La plataforma
+                        incluirá materiales como textos, videos y un videojuego sobre el tema de Ensayo Académico, con revisión de un docente
+                        colaborador.</p>
+                        <nav>
+                            <a class="link" href="https://www.canva.com/design/DAGC-Y2H-qE/MKGBFm8D_8s37MADBfB2NQ/edit?utm_content=DAGC-Y2H-qE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"
+                            rel="noreferrer">Canva</a>
+                        </nav>
+                    </article>
+                    <article class="trabajo_article">
+                        <h3>Captura del sitio Ensayo Academico</h3>
+                        <p>Captura de pantalla del sitio educativo Ensayo Acádemico desarrollado con Moodle</p>
+                        <img 
+                        width=530
+                        height=380 
+                        src="/imagenes/Paki.png"/>
+                
+                        <p>Enlace de videojuego del sitio hecho con Gdevelop:</p>
+                        <nav>
+                            <a href="https://gd.games/instant-builds/698fdad7-cb9f-4e15-9820-c4dafc0dc55a" target="_blank"
+                            rel="noreferrer">Gdevelop</a>
+                    </article>
 
-            </nav>
-            <li>Proyecto 4:</li>
-            <nav>
-                <a class="link" href="https://www.canva.com/design/DAGC-Y2H-qE/MKGBFm8D_8s37MADBfB2NQ/edit?utm_content=DAGC-Y2H-qE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"
-                rel="noreferrer">Canva</a>
-            </nav>
-        </ul>
-        
-        <img 
-        width=350
-        height=200
-        title="Captura del Sitio Ensayo Academico" 
-        alt="Captura de pantalla del sitio educativo Ensayo Academico Desarrollado con Moodle" 
-        src="/imagenes/Paki.png"/>
-
-        <p>Enlace de videojuego del sitio hecho con Gdevelop:</p>
-        <nav>
-            <a href="https://gd.games/instant-builds/698fdad7-cb9f-4e15-9820-c4dafc0dc55a" target="_blank"
-            rel="noreferrer">Gdevelop</a>
-
-        </nav>
-        <h3>Mi contacto</h3>
-        <a href="gabrielaarrazola322@alumno.cch.unam.mx">Enviame un correo</a>
-        <a href="gabearrazola1606@gmail.com">o a mi correo personal</a>
-        <a href="wwhatsapp: +5511982522">Telefono</a>
-        
-        <img
-        width=250
-        height=280
-        title="Foto de como me veo"
-        alt="Una imagen de mi persona Gariela Arrazola"
-        src="/imagenes/y02.png"/>
-
-    </main>
-
-    <footer><small>Hecho en Mexico 2024 por Gabriela Arrazola Hernandez</small></footer>
+                </div>
+            </section>
+            <section class="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Utilizacion de Moodle, Gdevelop, cables.gl, IbisPaint, Gimp para
+                        elaboracion de un sitio web.</li>
+                    <li>Uso de Guion instruccional, aprendizaje significativo, gamificacion,
+                        storyboards, guion literario, guion tecnico, bitacoras, referencias y
+                        argumento en trabajo escrito para elaboracion de un sitio web.</li>
+                </ul>
+            </section>
+            <section class="contacto">
+                <h2 class="h2_contacto">Mi contacto</h2>
+                <div class="contacto_wrapper">
+                    <article class="contacto_redes">
+                        <h3>Correo electronico</h3>
+                        <p>gabrielaarrazola322@alumno.cch.unam.mx</p>
+                        <h3>Telefono celular</h3>
+                        <p>5511982522</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                          </svg>
+                    </article>
+                    <article class="contacto_foto">
+                        <img
+                        width=250
+                        height=280
+                        title="Foto de como me veo"
+                        alt="Una imagen de mi persona Gariela Arrazola"
+                        src="/imagenes/y02.png"/>
+                    </article>
+                </div>
+            </section>
+        </main>    
+    <footer>
+        <p><small>Hecho en Mexico 2024 por Gabriela Arrazola Hernandez</small></p>
+    </footer>
 
     </body>
 </html>
