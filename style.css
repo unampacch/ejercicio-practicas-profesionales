@@ -93,6 +93,9 @@ body{
         h3{
             color: rgb(106, 42, 165);
         }
+        & .contacto_foto{
+            border-radius: 0.5rem;
+        }
     }
     }
 
