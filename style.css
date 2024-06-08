@@ -12,6 +12,8 @@ body{
     background-color: beige;
     font-family: 'Mulish Variable';
     font-size: 1rem;
+    text-align: justify;
+    text-transform: uppercase;
 }
 .menu{
     display: flex;
@@ -60,7 +62,7 @@ body{
 
 .trabajo{
     & h2{
-        padding: 10px;
+        padding: 30px;
         text-transform: uppercase;
     }
     & .trabajo_wropper{
@@ -79,23 +81,9 @@ body{
         transform: scale(1.05);
     }
 }
-
-.contacto {
-    & .h2_contacto{
-        font-size: 2rem;
-        text-transform: uppercase;
-    }
-    & .contacto_wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        padding: 2rem;
-        h3{
-            color: rgb(106, 42, 165);
-        }
-        & .contacto_foto{
-            border-radius: 0.5rem;
-        }
-    }
-    }
-
+.contacto_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+}
