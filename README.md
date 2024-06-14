@@ -1,4 +1,6 @@
 # Ejercicio HTML/CSS para prácticas profesionales 2024
+## Cambio en la rama de Rodrigo
+
 
 ## Antes de empezar 🖖
 + Revisar video HTML https://youtu.be/3nYLTiY5skU?si=9lgcv8fErUMZ51iw
